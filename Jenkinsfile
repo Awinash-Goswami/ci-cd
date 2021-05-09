@@ -4,7 +4,7 @@ pipeline {
         stage("Build") {
             steps {
                 echo 'Hello, Maven'
-                sh 'mvn --version'
+                sh 'df -kh'
             }
         }
         stage("Test") {
