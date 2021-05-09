@@ -10,7 +10,7 @@ pipeline {
         stage("Test") {
             steps {
                 echo 'Hello, JDK'
-                sh 'java --version'
+                sh 'java -version'
             }
         }
     }
